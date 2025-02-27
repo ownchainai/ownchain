@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+ <!-- Define gradients -->
+ <defs>
+ <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#3A0CA3" />
+ <stop offset="100%" stop-color="#4361EE" />
+ </linearGradient>
+ <linearGradient id="gradient2" x1="0%" y1="100%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#4361EE" />
+ <stop offset="100%" stop-color="#4CC9F0" />
+ </linearGradient>
+ </defs>
+ <!-- Transparent background -->
+ <rect width="600" height="200" fill="white" opacity="0"/>
+ <!-- Overall layout adjustment -->
+ <g transform="translate(120, 100)">
+ <!-- Icon part - Adjust size -->
+ <g transform="scale(0.7)">
+ <!-- Circular background element -->
+ <circle cx="0" cy="0" r="90" fill="url(#gradient1)" opacity="0.1"/>
+ <!-- Main chain symbol -->
+ <g transform="rotate(-30)">
+ <!-- First chain link -->
+ <path d="M-40,-30 A30,30 0 0,0 -40,30 A30,30 0 0,0 20,30 A30,30 0 0,0 20,-30 A30,30 0 0,0 -40,-30 Z"
+ fill="url(#gradient1)"/>
+ <path d="M-30,-15 A15,15 0 0,0 -30,15 A15,15 0 0,0 10,15 A15,15 0 0,0 10,-15 A15,15 0 0,0 -30,-15 Z"
+ fill="white"/>
+ <!-- Second chain link -->
+ <path d="M20,-30 A30,30 0 0,0 20,30 A30,30 0 0,0 80,30 A30,30 0 0,0 80,-30 A30,30 0 0,0 20,-30 Z"
+ fill="url(#gradient2)"/>
+ <path d="M30,-15 A15,15 0 0,0 30,15 A15,15 0 0,0 70,15 A15,15 0 0,0 70,-15 A15,15 0 0,0 30,-15 Z"
+ fill="white"/>
+ </g>
+ </g>
+ <!-- Text part - Adjust size and position -->
+ <g transform="translate(110, 0)">
+ <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="48" text-anchor="start" alignment-baseline="middle">
+ <tspan fill="#3A0CA3">Own</tspan><tspan fill="#4CC9F0">Chain</tspan>
+ </text>
+ </g>
+ </g>
+</svg> 

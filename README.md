@@ -148,6 +148,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 - Website: [ownchain.io](https://ownchain.io)
-- Twitter: [@OwnChainProject](https://twitter.com/OwnChainProject)
-- Discord: [OwnChain Community](https://discord.gg/ownchain)
+- X (Twitter): [@OwnChain_com](https://x.com/OwnChain_com)
 - Email: info@ownchain.io 
